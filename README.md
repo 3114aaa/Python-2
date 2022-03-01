@@ -38,3 +38,10 @@ python-2 开始介绍函数
     结果:num被赋值4
     num =add(b=1,a=4)
     结果:num被赋值5
+    
+<details><summary>进阶</summary>
+<p>
+我们在定义时，也可以给函数提前赋值
+</p>
+[代码](https://github.com/3114aaa/Python-2/blob/main/code/def1.py)
+</details>
