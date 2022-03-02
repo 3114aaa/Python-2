@@ -70,14 +70,51 @@ python-2 开始介绍函数
     <tr>
         <td>函数名</td>
         <td>作用</td>
+        <td>用法</td>
+        <td>结果</td>
     </tr>
     <tr>
         <td>abs()</td>
         <td>绝对值</td>
+        <td>abs(-2)</td>
+        <td>-2</td>
     </tr>
     <tr>
         <td>divmod()</td>
         <td>取商取余</td>
+        <td>divmod(10,3)</td>
+        <td>(3,1)</td>
     </tr>
+    <tr>
+        <td>max()</td>
+        <td>取最大值</td>
+        <td>max(1,2,3)</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>min()</td>
+        <td>取最小值</td>
+        <td>min(1,2,3)</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>pow()</td>
+        <td>幂的运算</td>
+        <td>pow(2,4)</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>round()</td>
+        <td>四舍五入</td>
+        <td>round(3.14),round(3.14,1)</td>
+        <td>3,3.1</td>
+    </tr>
+    <tr>
+        <td>sum()</td>
+        <td>求和</td>
+        <td>sum((1,2,3)),sum([1,2,3]),sum((1,2,3),-6)</td>
+        <td>6,6,0</td>
+    </tr>
+    
 </table>
 </details>
