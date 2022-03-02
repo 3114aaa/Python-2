@@ -65,6 +65,7 @@ python-2 开始介绍函数
 |compile()|globals()|map()|reversed()|\_import\_()
 |complex()|hasattr()|max()|round()|
 <details><summary>详细用法</summary>
+<b>算术函数</b>
 <table>
     <tr>
         <td>函数名</td>
@@ -73,6 +74,10 @@ python-2 开始介绍函数
     <tr>
         <td>abs()</td>
         <td>绝对值</td>
+    </tr>
+    <tr>
+        <td>divmod()</td>
+        <td>取商取余</td>
     </tr>
 </table>
 </details>
