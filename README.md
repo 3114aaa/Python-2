@@ -64,6 +64,7 @@ python-2 开始介绍函数
 |classmethod()|getattr()|locals()|repr()|zip()
 |compile()|globals()|map()|reversed()|\_import\_()
 |complex()|hasattr()|max()|round()|
+
 <details><summary>详细用法</summary>
 <b>算术函数</b>
 <table>
@@ -276,5 +277,50 @@ python-2 开始介绍函数
         <td>可以执行更难得字符串</td>
         <td>exec('print("123")')</td>
         <td>123</td>
-    </tr>
+    </tr></table>
 </details>
+
+## 四、模块
+
+模块有三类:
+
+- 自带模块
+- 自定义模块
+- 第三方模块
+
+我们可以使用`import`来导入需要得模块
+
+例如:
+```
+import math
+
+print(math.e) # 输出e的值
+print(math.pow(2,3)) # 输出8
+```
+
+有时候我们可能大量用到pow()函数，每次都要math.pow()很麻烦
+
+这时候可以使用`from`,它的作用是直接引用某个模块的函数
+
+例如:
+
+```
+from math import pow
+print(pow(2,3))
+```
+
+或者
+
+
+```
+from math import e,pow
+print(e)
+print(pow(2,3))
+```
+
+
+```
+from math import * # *号表示全部直接引用
+print(e)
+print(pow(2,3))
+```
