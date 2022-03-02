@@ -115,6 +115,74 @@ python-2 开始介绍函数
         <td>sum((1,2,3)),sum([1,2,3]),sum((1,2,3),-6)</td>
         <td>6,6,0</td>
     </tr>
-    
+</table>
+<b>数据类型转换函数</b>
+<table>
+    <tr>
+        <td>函数名</td>
+        <td>作用</td>
+        <td>用法</td>
+        <td>结果</td>
+    </tr>
+    <tr>
+        <td>bool()</td>
+        <td>布尔型</td>
+        <td>bool(1),bool(0),bool(),bool("str")</td>
+        <td>True(非零的都为True),False,False,True</td>
+    </tr>
+    <tr>
+        <td>int()</td>
+        <td>整型</td>
+        <td>int(),int(1.4),int("123")</td>
+        <td>0,1,123</td>
+    </tr>
+    <tr>
+        <td>float()</td>
+        <td>浮点型</td>
+        <td>float(),float(4),float("3")</td>
+        <td>0.0,4.0,3.0</td>
+    </tr>
+    <tr>
+        <td>complex()</td>
+        <td>复数型(<a url="https://www.zhihu.com/topic/19628033/intro">详情<a>)</td>
+        <td>complex(),complex("1+2j",complex(1,2))</td>
+        <td>0j,(1+2j),(1+2j)</td>
+    </tr>
+    <tr>
+        <td>str()</td>
+        <td>字符串型</td>
+        <td>str(),str(123),str(None),str("abc")</td>
+        <td>"","123","None","abc"</td>
+    </tr>
+    <tr>
+        <td>ord()</td>
+        <td>对字符返回asc码</td>
+        <td>ord("a")</td>
+        <td>97</td>
+    </tr>
+    <tr>
+        <td>chr()</td>
+        <td>将整数转换为asc码对应字符(范围:0-255整数)</td>
+        <td>chr(97)</td>
+        <td>"a"</td>
+    </tr>
+    <tr>
+        <td>bin()</td>
+        <td>将整数转换成二进制</td>
+        <td>bin(3)</td>
+        <td>0B11</td>
+    </tr>
+    <tr>
+        <td>oct()</td>
+        <td>将整数转换八进制</td>
+        <td>oct(8)</td>
+        <td>0o10</td>
+    </tr>
+    <tr>
+        <td>hex()</td>
+        <td>将整数转化为十六进制</td>
+        <td>hex(15)</td>
+        <td>0xf</td>
+    </tr>
 </table>
 </details>
