@@ -144,7 +144,7 @@ python-2 开始介绍函数
     </tr>
     <tr>
         <td>complex()</td>
-        <td>复数型(<a url="https://www.zhihu.com/topic/19628033/intro">详情<a>)</td>
+        <td>复数型(<a url="https://www.zhihu.com/topic/19628033/intro">详情</a>)</td>
         <td>complex(),complex("1+2j",complex(1,2))</td>
         <td>0j,(1+2j),(1+2j)</td>
     </tr>
@@ -185,4 +185,96 @@ python-2 开始介绍函数
         <td>0xf</td>
     </tr>
 </table>
+<b>序列函数</b>
+<table>
+    <tr>
+        <td>函数名</td>
+        <td>作用</td>
+        <td>用法</td>
+        <td>结果</td>
+    </tr>
+    <tr>
+        <td>all()</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>any()</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>filter()</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>map()</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>reversed()</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>sorted()</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>zip()</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<b>对象操作</b>
+<table>
+    <tr>
+        <td>函数名</td>
+        <td>作用</td>
+        <td>用法</td>
+        <td>结果</td>
+    </tr>
+    <tr>
+        <td>type()</td>
+        <td>返回对象类别</td>
+        <td>tpye(True)</td>
+        <td>&lt;class 'bool' &gt;</td>
+    </tr>
+    <tr>
+        <td>len()</td>
+        <td>返回对象长度</td>
+        <td>len("abc"),len((1,2,3)),len([1,2]),len(range(5)),len({'a':12}),len({1,2,3})</td>
+        <td>3,3,2,4,1,3</td>
+    </tr>
+</table>
+<b>编译运行</b>
+<table>
+    <tr>
+        <td>函数名</td>
+        <td>作用</td>
+        <td>用法</td>
+        <td>结果</td>
+    </tr>
+    <tr>
+        <td>eval()</td>
+        <td>执行字符串</td>
+        <td>eval("3+1")</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>exec()</td>
+        <td>可以执行更难得字符串</td>
+        <td>exec('print("123")')</td>
+        <td>123</td>
+    </tr>
 </details>
