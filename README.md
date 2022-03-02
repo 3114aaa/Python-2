@@ -320,7 +320,19 @@ print(pow(2,3))
 
 
 ```
-from math import * # *号表示全部直接引用
+from math import * 
+# *号表示全部直接引用
 print(e)
 print(pow(2,3))
 ```
+
+模块_name_属性
+
+当你写代码被导入后，`_name_`的值为模块名
+
+当你写代码直接运行,`_name_`的值为`_main_`
+
+对于模块的运用就先讲到这里，以后会具体对每一块模块讲解
+
+**[返回目录](https://github.com/3114aaa/Python-directory)
+[下一章](https://github.com/3114aaa/Python-2)**
