@@ -46,3 +46,20 @@ python-2 开始介绍函数
 </p>
 <p>。。。</p>
 </details>
+
+
+## 三、内置函数
+|abs()|delattr()|hash()|memoryview()|set()
+|-----|---------|------|------------|-----
+|all()|dict()|help()|min()|setattr()
+|any()|dict()|hex()|next()|slice()
+|acsii()|divmod()|id()|object()|sorted()
+|bin()|enumerate()|input()|oct()|staticmethod()
+|bool()|eval()|int()|open()|str()
+|breakpoint()|exec()|isinstance()|ord()|sum()
+|bytearray()|filter()|issubclass()|pow()|super()
+|bytes()|float()|len()|property()|type()
+|chr()|frozenset()|list()|range()|vars()
+|classmethod()|getattr()|locals()|repr()|zip()
+|compile()|globals()|map()|reversed()|\_import\_()
+|complex()|hasattr()|max()|round()|
