@@ -49,8 +49,9 @@ python-2 开始介绍函数
 
 
 ## 三、内置函数
-|abs()|delattr()|hash()|memoryview()|set()
+|内置函数|内置函数|内置函数|内置函数|内置函数|
 |-----|---------|------|------------|-----
+|abs()|delattr()|hash()|memoryview()|set()
 |all()|dict()|help()|min()|setattr()
 |any()|dict()|hex()|next()|slice()
 |acsii()|divmod()|id()|object()|sorted()
@@ -63,3 +64,15 @@ python-2 开始介绍函数
 |classmethod()|getattr()|locals()|repr()|zip()
 |compile()|globals()|map()|reversed()|\_import\_()
 |complex()|hasattr()|max()|round()|
+<details><summary>详细用法</summary>
+<table>
+    <tr>
+        <td>函数名</td>
+        <td>作用</td>
+    </tr>
+    <tr>
+        <td>abs()</td>
+        <td>绝对值</td>
+    </tr>
+</table>
+</details>
