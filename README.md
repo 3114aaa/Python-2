@@ -335,4 +335,4 @@ print(pow(2,3))
 对于模块的运用就先讲到这里，以后会具体对每一块模块讲解
 
 **[返回目录](https://github.com/3114aaa/Python-directory)
-[下一章](https://github.com/3114aaa/Python-2)**
+[下一章](https://github.com/3114aaa/Python-3)**
