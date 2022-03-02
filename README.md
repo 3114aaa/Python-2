@@ -41,7 +41,8 @@ python-2 开始介绍函数
     
 <details><summary>进阶</summary>
 <p>
-我们在定义时，也可以给函数提前赋值
+1.我们在定义时，也可以给函数提前赋值，来加强函数的兼容性
+<a href="https://github.com/3114aaa/Python-2/blob/main/code/def1.py">代码参考</a>
 </p>
-代码>(https://github.com/3114aaa/Python-2/blob/main/code/def1.py)
+<p>。。。</p>
 </details>
