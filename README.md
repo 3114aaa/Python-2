@@ -340,8 +340,20 @@ print(pow(2,3))
 
 ```mermaid
 graph TD;
-打开文件 open() --> 读写文件 read(),weite() --> 关闭文件 close()
+打开文件open --> 读写文件read,weite --> 关闭文件close
 ```
+
+格式
+`
+变量名 = open(文件名（字符串）[,打开方式])
+`
+
+- r:只读
+- w:只写
+- a:追加
+- b:以二进制打开
+- \+:读写
+
 
 **[返回目录](https://github.com/3114aaa/Python-directory)
 [下一章](https://github.com/3114aaa/Python-3)**
