@@ -340,7 +340,8 @@ print(pow(2,3))
 
 ```mermaid
 graph TD;
-打开文件 --> 读写文件 --> 关闭文件```
+打开文件 open() --> 读写文件 read(),weite() --> 关闭文件 close()
+```
 
 **[返回目录](https://github.com/3114aaa/Python-directory)
 [下一章](https://github.com/3114aaa/Python-3)**
