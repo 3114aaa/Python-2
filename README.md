@@ -334,5 +334,13 @@ print(pow(2,3))
 
 对于模块的运用就先讲到这里，以后会具体对每一块模块讲解
 
+## 五、文件输入输出
+
+文件操作基本步骤
+
+```mermaid
+graph TD;
+打开文件 --> 读写文件 --> 关闭文件```
+
 **[返回目录](https://github.com/3114aaa/Python-directory)
 [下一章](https://github.com/3114aaa/Python-3)**
